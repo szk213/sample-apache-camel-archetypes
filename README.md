@@ -84,3 +84,17 @@ mvn archetype:generate -DarchetypeGroupId=org.apache.camel.archetypes \
     -DinteractiveMode=false
 ```
 
+## dataformat
+
+```sh
+mvn archetype:generate -DarchetypeGroupId=org.apache.camel.archetypes \
+    -DarchetypeArtifactId=camel-archetype-dataformat \
+    -DarchetypeVersion=3.0.0 \
+    -DgroupId=com.szk213.samples \
+    -DartifactId=camel-archetype-dataformat \
+    -Dname=Hello \
+    -Dscheme=hello \
+    -Dversion=1.0-SNAPSHOT \
+    -DinteractiveMode=false
+```
+
