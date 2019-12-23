@@ -69,3 +69,18 @@ mvn archetype:generate -DarchetypeGroupId=org.apache.camel.archetypes \
     -Dversion=1.0-SNAPSHOT \
     -DinteractiveMode=false
 ```
+
+## cdi
+
+```sh
+mvn archetype:generate -DarchetypeGroupId=org.apache.camel.archetypes \
+    -DarchetypeArtifactId=camel-archetype-cdi \
+    -DarchetypeVersion=3.0.0 \
+    -DgroupId=com.szk213.samples \
+    -DartifactId=camel-archetype-cdi \
+    -Dname=Hello \
+    -Dscheme=hello \
+    -Dversion=1.0-SNAPSHOT \
+    -DinteractiveMode=false
+```
+
